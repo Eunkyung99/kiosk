@@ -13,11 +13,11 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_width="match_parent"
         android:layout_height="220dp" />
-     <GridView
-         android:id="@+id/gridview"
-         android:layout_width="match_parent"
-         android:numColumns="4"
-         app:layout_constraintTop_toTopOf="@+id/viewpager"
-         android:layout_height="wrap_content" />
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:numColumns="4"
+        app:layout_constraintTop_toTopOf="@+id/viewpager"
+        android:layout_height="wrap_content" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

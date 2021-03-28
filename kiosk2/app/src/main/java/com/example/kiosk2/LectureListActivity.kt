@@ -1,8 +1,10 @@
 package com.example.kiosk2
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kiosk2.R
 import com.google.android.material.tabs.TabLayout
@@ -28,6 +30,8 @@ class LectureListActivity : AppCompatActivity() {
 
         list_viewpager.addOnPageChangeListener(TabLayout.TabLayoutOnPageChangeListener(tab_layout))
 
+        list_viewpager.addOnPageChangeListener(TabLayout.TabLayoutOnPageChangeListener(tab_layout))
+
         tab_layout.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener{
             override fun onTabReselected(p0: TabLayout.Tab?) {
             }
@@ -36,6 +40,7 @@ class LectureListActivity : AppCompatActivity() {
             }
 
             override fun onTabSelected(p0: TabLayout.Tab?) {
+                Log.e("a",p0.toString())
                 if (p0 != null) {
                     list_viewpager.currentItem = p0.position
                 }
@@ -48,8 +53,9 @@ class LectureListActivity : AppCompatActivity() {
     private fun createTabView(tabName : String) : View {
 
         val tabView = LayoutInflater.from(baseContext).inflate(R.layout.custom_tab, null)
+        val txt_name=tabView.findViewById(R.id.txt_name) as TextView
 
-        tabView.txt_name.text = tabName
+        txt_name.text=tabName
 
         return tabView
 

@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import kotlinx.android.synthetic.main.fragment_first.view.*
 
 
 class FirstFragment : Fragment() {
@@ -19,6 +20,11 @@ class FirstFragment : Fragment() {
 
 
         val list_array = arrayListOf<ContentsListModel>(
+            ContentsListModel(R.drawable.ai,"b",1, "d"),
+            ContentsListModel(R.drawable.ai,"b",1, "d"),
+            ContentsListModel(R.drawable.ai,"b",1, "d"),
+            ContentsListModel(R.drawable.ai,"b",1, "d"),
+            ContentsListModel(R.drawable.ai,"b",1, "d"),
 
 
 
@@ -27,6 +33,7 @@ class FirstFragment : Fragment() {
 
 
         val list_adapter = FirstFragAdapter(requireContext(), list_array)
+        view.listview_first_fragment.adapter=list_adapter
 
 
         return view

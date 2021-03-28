@@ -2,10 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="120dp">
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/lv_image_area"
+        android:id="@+id/rv_image_area"
         android:src="@drawable/ai"
         android:layout_margin="20dp"
         android:layout_width="80dp"
@@ -18,7 +18,7 @@
 
 
         <TextView
-            android:id="@+id/lv_textview_1"
+            android:id="@+id/rv_textview_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -27,19 +27,19 @@
             android:text="제목 영역입니다."/>
 
         <TextView
-            android:id="@+id/lv_textview_2"
+            android:id="@+id/rv_textview_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:text="최근 리뷰가 N개 입니다."/>
 
         <TextView
-            android:id="@+id/lv_textview_3"
+            android:id="@+id/rv_textview_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:textStyle="bold"
-            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:layout_margin="10dp"
             android:text="분류입니다."/>
 
 

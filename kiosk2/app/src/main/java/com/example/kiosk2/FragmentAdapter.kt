@@ -12,11 +12,10 @@ class FragmentAdapter(fm : FragmentManager) : FragmentPagerAdapter(fm) {
             0 -> {
                 FirstFragment()
             }
-            1 -> {
-                return FirstFragment()
-            }
+            1 -> SecondFragment()
+
             else -> {
-                return FirstFragment()
+                return ThirdFragment()
             }
         }
     }
