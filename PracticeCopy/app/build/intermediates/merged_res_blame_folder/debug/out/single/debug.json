@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chicken.png.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\drawable\\chicken.png"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_write_button.png.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\drawable\\write_button.png"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\layout_listview_item.xml.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\layout\\listview_item.xml"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_food.png.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\drawable-v24\\food.png"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\layout_gridview_item.xml.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\layout\\gridview_item.xml"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_fourth.xml.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\layout\\fragment_fourth.xml"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_second.xml.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_tab.xml.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\layout\\custom_tab.xml"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_korean_food.png.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\drawable\\korean_food.png"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_lecture.xml.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\layout\\activity_lecture.xml"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\layout_viewpager_activity.xml.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\layout\\viewpager_activity.xml"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sixth.xml.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\layout\\fragment_sixth.xml"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_fifth.xml.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\layout\\fragment_fifth.xml"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_third.xml.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\layout\\fragment_third.xml"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_first.xml.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_snack_bar.png.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\drawable\\snack_bar.png"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cafe_dessert.png.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\drawable\\cafe_dessert.png"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chicken_pizza.png.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\drawable\\chicken_pizza.png"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chinese_food.png.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\drawable\\chinese_food.png"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order.xml.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\layout\\activity_order.xml"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_western_style.png.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\drawable\\western_style.png"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_market_info.xml.flat",
+        "source": "C:\\teamProject\\kiosk\\PracticeCopy\\app\\src\\main\\res\\layout\\activity_market_info.xml"
+    }
+]
