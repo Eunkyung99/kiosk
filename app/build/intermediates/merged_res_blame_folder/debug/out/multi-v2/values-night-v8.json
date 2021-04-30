@@ -1,27 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\MOON\\AndroidStudioProjects\\kiosk-master(3)\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\MOON\\AndroidStudioProjects\\kiosk-master(3)\\app\\src\\main\\res\\values-night\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "819"
-                    },
-                    "to": {
-                        "startLines": "25",
-                        "startColumns": "4",
-                        "startOffsets": "2594",
-                        "endLines": "37",
-                        "endColumns": "12",
-                        "endOffsets": "3311"
-                    }
-                },
                 {
                     "source": "C:\\Users\\MOON\\.gradle\\caches\\transforms-2\\files-2.1\\182c6f7fa206fcf9dfa64f742b56b7ac\\appcompat-1.2.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
@@ -37,6 +18,25 @@
                         "startOffsets": "100,170,254,338,434,536,638,3316",
                         "endColumns": "69,83,83,95,101,101,93,88",
                         "endOffsets": "165,249,333,429,531,633,727,3400"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "819"
+                    },
+                    "to": {
+                        "startLines": "25",
+                        "startColumns": "4",
+                        "startOffsets": "2594",
+                        "endLines": "37",
+                        "endColumns": "12",
+                        "endOffsets": "3311"
                     }
                 },
                 {

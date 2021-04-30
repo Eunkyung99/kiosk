@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\MOON\\AndroidStudioProjects\\kiosk-master(3)\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\MOON\\.gradle\\caches\\transforms-2\\files-2.1\\911aaaeb2f2e36246077d7afa28283e5\\jetified-volleyplus-0.1.4\\res\\values\\values.xml",
@@ -93,44 +93,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\MOON\\AndroidStudioProjects\\kiosk-master(3)\\app\\src\\main\\res\\values\\font_certs.xml",
-                    "from": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,257,1982",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "252,1977,3567"
-                    },
-                    "to": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "150,352,2077",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "347,2072,3662"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\MOON\\AndroidStudioProjects\\kiosk-master(3)\\app\\src\\main\\res\\values\\preloaded_fonts.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "156"
-                    },
-                    "to": {
-                        "startLines": "16",
-                        "startColumns": "4",
-                        "startOffsets": "3667",
-                        "endLines": "18",
-                        "endColumns": "12",
-                        "endOffsets": "3768"
-                    }
-                },
-                {
                     "source": "C:\\Users\\MOON\\.gradle\\caches\\transforms-2\\files-2.1\\0b87ab1084a68f31fe387bc7a6868a5f\\jetified-viewpager2-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -150,6 +112,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\src\\main\\res\\values\\font_certs.xml",
+                    "from": {
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,257,1982",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "252,1977,3567"
+                    },
+                    "to": {
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "150,352,2077",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "347,2072,3662"
+                    }
+                },
+                {
                     "source": "C:\\Users\\MOON\\.gradle\\caches\\transforms-2\\files-2.1\\537782afe7fc53b1188027f79aae3b3c\\navigation-ui-2.3.3\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4",
@@ -164,6 +145,23 @@
                         "startOffsets": "62849,76974,77050",
                         "endColumns": "52,75,86",
                         "endOffsets": "62897,77045,77132"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "16,124",
+                        "endColumns": "49,69",
+                        "endOffsets": "61,189"
+                    },
+                    "to": {
+                        "startLines": "1084,1101",
+                        "startColumns": "4,4",
+                        "startOffsets": "66087,67876",
+                        "endColumns": "49,69",
+                        "endOffsets": "66132,67941"
                     }
                 },
                 {
@@ -186,25 +184,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\MOON\\AndroidStudioProjects\\kiosk-master(3)\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "15,2",
-                        "startColumns": "4,4",
-                        "startOffsets": "824,100",
-                        "endLines": "21,14",
-                        "endColumns": "12,12",
-                        "endOffsets": "1342,819"
-                    },
-                    "to": {
-                        "startLines": "3411,3816",
-                        "startColumns": "4,4",
-                        "startOffsets": "226155,255886",
-                        "endLines": "3417,3828",
-                        "endColumns": "12,12",
-                        "endOffsets": "226673,256603"
-                    }
-                },
-                {
                     "source": "C:\\Users\\MOON\\.gradle\\caches\\transforms-2\\files-2.1\\ea187d0291ca5bf524f459eedc89403c\\jetified-circleimageview-3.0.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -221,23 +200,6 @@
                         "endLines": "6116",
                         "endColumns": "24",
                         "endOffsets": "392507"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\MOON\\AndroidStudioProjects\\kiosk-master(3)\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "284,55,102,149,194,239,326",
-                        "endColumns": "41,46,46,44,44,44,41",
-                        "endOffsets": "321,97,144,189,234,279,363"
-                    },
-                    "to": {
-                        "startLines": "423,514,515,516,528,529,532",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "23328,29525,29572,29619,30409,30454,30620",
-                        "endColumns": "41,46,46,44,44,44,41",
-                        "endOffsets": "23365,29567,29614,29659,30449,30494,30657"
                     }
                 },
                 {
@@ -279,6 +241,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "15,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "824,100",
+                        "endLines": "21,14",
+                        "endColumns": "12,12",
+                        "endOffsets": "1342,819"
+                    },
+                    "to": {
+                        "startLines": "3411,3816",
+                        "startColumns": "4,4",
+                        "startOffsets": "226155,255886",
+                        "endLines": "3417,3828",
+                        "endColumns": "12,12",
+                        "endOffsets": "226673,256603"
+                    }
+                },
+                {
                     "source": "C:\\Users\\MOON\\.gradle\\caches\\transforms-2\\files-2.1\\d5bdf2f2fd65b8fcff42e983a0850526\\jetified-appcompat-resources-1.2.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,29,36,47,74",
@@ -314,23 +295,6 @@
                         "endLines": "333,675,676,677,685,686,687,976,7321",
                         "endColumns": "55,58,47,55,74,75,71,65,24",
                         "endOffsets": "18684,40158,40206,40262,40948,41024,41096,59795,475742"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\MOON\\AndroidStudioProjects\\kiosk-master(3)\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "16,124",
-                        "endColumns": "49,69",
-                        "endOffsets": "61,189"
-                    },
-                    "to": {
-                        "startLines": "1084,1101",
-                        "startColumns": "4,4",
-                        "startOffsets": "66087,67876",
-                        "endColumns": "49,69",
-                        "endOffsets": "66132,67941"
                     }
                 },
                 {
@@ -410,6 +374,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "284,55,102,149,194,239,326",
+                        "endColumns": "41,46,46,44,44,44,41",
+                        "endOffsets": "321,97,144,189,234,279,363"
+                    },
+                    "to": {
+                        "startLines": "423,514,515,516,528,529,532",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "23328,29525,29572,29619,30409,30454,30620",
+                        "endColumns": "41,46,46,44,44,44,41",
+                        "endOffsets": "23365,29567,29614,29659,30449,30494,30657"
+                    }
+                },
+                {
                     "source": "C:\\Users\\MOON\\.gradle\\caches\\transforms-2\\files-2.1\\fcb265952d736b99a98edd7c422ee266\\navigation-common-2.3.3\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,13,19,25,28",
@@ -426,6 +407,25 @@
                         "endLines": "7160,7166,7172,7175,7243",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "466461,466705,466952,467085,471199"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\src\\main\\res\\values\\preloaded_fonts.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "156"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "3667",
+                        "endLines": "18",
+                        "endColumns": "12",
+                        "endOffsets": "3768"
                     }
                 },
                 {

@@ -4,15 +4,14 @@ import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import kotlinx.android.synthetic.main.activity_order.*
 
 class OrderActivity : AppCompatActivity() {
     lateinit var dbHelper : DBHelper
     lateinit var database :SQLiteDatabase
 
-    var orderList = arrayListOf<orderData>(
-        orderData("삼선짜장", 6500, "곱빼기", "dog00")
-    )
+    var orderList = arrayListOf<orderData>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         System.out.println(orderList)
@@ -49,7 +48,14 @@ class OrderActivity : AppCompatActivity() {
 
                 }
             } finally {
-                database.close()
             }
         }
+
+    fun Delete(view: View) { //전체 삭제 기능
+        database.execSQL("delete from " +"mytable")
+        finish()
+
     }
+
+
+}
