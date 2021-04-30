@@ -1,0 +1,79 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.practicecopy"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" /> <!-- 파일 업로드 시 외부저장소 권한 -->
+11-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:6:22-78
+13
+14    <application
+14-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:8:5-33:19
+15        android:allowBackup="true"
+15-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.6.0-alpha02] C:\Users\MOON\.gradle\caches\transforms-2\files-2.1\b8442d1a053301bf03731549a6e70699\core-1.6.0-alpha02\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:10:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:11:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:12:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:13:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.PracticeCopy"
+24-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:14:9-50
+25        android:usesCleartextTraffic="true" >
+25-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:15:9-44
+26        <activity android:name="com.example.practicecopy.OrderActivity" />
+26-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:16:9-51
+26-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:16:19-48
+27        <activity android:name="com.example.practicecopy.MenuActivity" />
+27-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:17:9-50
+27-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:17:19-47
+28        <activity android:name="com.example.practicecopy.StoreListActivity" />
+28-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:18:9-55
+28-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:18:19-52
+29        <activity
+29-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:19:9-21:59
+30            android:name="com.example.practicecopy.OptionActivity"
+30-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:20:13-43
+31            android:theme="@android:style/Theme.Dialog" />
+31-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:21:13-56
+32        <activity android:name="com.example.practicecopy.MainActivity" >
+32-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:22:9-28:20
+32-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:22:19-47
+33            <intent-filter>
+33-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:23:13-27:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:24:17-69
+34-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:24:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:26:17-77
+36-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:26:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <meta-data
+40-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:30:9-32:57
+41            android:name="preloaded_fonts"
+41-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:31:13-43
+42            android:resource="@array/preloaded_fonts" />
+42-->C:\Users\MOON\AndroidStudioProjects\kiosk-master(3)\app\src\main\AndroidManifest.xml:32:13-54
+43    </application>
+44
+45</manifest>
