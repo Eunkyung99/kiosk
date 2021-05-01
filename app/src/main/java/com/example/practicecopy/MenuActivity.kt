@@ -53,6 +53,7 @@ class MenuActivity : AppCompatActivity() {
         dbHelper = DBHelper(this, "newdb.db", null, 1)
         database = dbHelper.writableDatabase
 
+        database.execSQL("delete from " +"mytable")
         val intent = intent
 
         val categoryID = intent.getIntExtra("categoryID", 1001)
