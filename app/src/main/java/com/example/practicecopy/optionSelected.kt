@@ -1,6 +1,5 @@
 package com.example.practicecopy
 
-class optionSelected (
-    var menuID: Int,
-    var optionName: String
-        )
+import java.io.Serializable
+
+data class optionSelected (var menuID: Int, var OptionID: Int, var optionName: String): Serializable

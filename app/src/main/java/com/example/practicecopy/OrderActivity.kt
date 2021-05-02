@@ -28,7 +28,8 @@ class OrderActivity : AppCompatActivity() {
     }
         fun selectOrder() {
             System.out.println("SelectOrder 들어옴")
-            val Order = "select * from mytable"
+            val Order = "select mytable.menuID, mytable.menuName, mytable.price, mytable.count, OptionTable.optionID, OptionTable.OptionName" +
+                    " from mytable LEFT OUTER JOIN OptionTable ON mytable.menuID = OptionTable.menuID"
             var cursor = database.rawQuery(Order, null)
             try {
                 if (cursor != null) {
@@ -36,11 +37,11 @@ class OrderActivity : AppCompatActivity() {
                         do {
                             val menuID = cursor.getLong(cursor.getColumnIndex("menuID"))
                             val menuName = cursor.getString(cursor.getColumnIndex("menuName"))
-                            System.out.println("Order : " + menuName)
                             val optionID = cursor.getString(cursor.getColumnIndex("optionID"))
                             val price = cursor.getLong(cursor.getColumnIndex("price"))
                             val count = cursor.getString(cursor.getColumnIndex("count"))
-                            orderList.add(orderData(menuName, price.toInt(), optionID, count))
+                            val OptionName = cursor.getString(cursor.getColumnIndex("OptionName"))
+                            orderList.add(orderData(menuName, price.toInt(), OptionName, count))
                             System.out.println(orderList)
                         } while (cursor.moveToNext())
                     }

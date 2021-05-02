@@ -18,6 +18,8 @@ import java.net.HttpURLConnection
 import java.net.MalformedURLException
 import java.net.URL
 import java.util.ArrayList
+import java.io.Serializable
+
 
 class OptionActivity : Activity() {
     var gridview: GridView? = null
@@ -61,7 +63,7 @@ class OptionActivity : Activity() {
                     optionItems[position].selected = true
                     optionID = optionItems[position].optionID //변수
                     optionName = optionItems[position].optionName
-                    totalOption.add(optionSelected(optionID, optionName)) //배열로 저장
+                    totalOption.add(optionSelected(menuID, optionID, optionName)) //배열로 저장
                     val optionPrice = optionItems[position].price //변수
                     basePrice += optionPrice
                     totalPrice += optionPrice
@@ -72,7 +74,7 @@ class OptionActivity : Activity() {
                     optionItems[position].selected = false
                     optionID = optionItems[position].optionID
                     optionName = optionItems[position].optionName
-                    totalOption.remove(optionSelected(optionID, optionName)) //배열에서 삭제
+                    totalOption.remove(optionSelected(menuID, optionID, optionName)) //배열에서 삭제
                     val optionPrice = optionItems[position].price
                     basePrice -= optionPrice
                     totalPrice -= optionPrice

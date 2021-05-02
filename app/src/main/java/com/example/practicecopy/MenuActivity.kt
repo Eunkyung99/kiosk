@@ -54,6 +54,7 @@ class MenuActivity : AppCompatActivity() {
         database = dbHelper.writableDatabase
 
         database.execSQL("delete from " +"mytable")
+        database.execSQL("delete from " +"OptionTable")
         val intent = intent
 
         val categoryID = intent.getIntExtra("categoryID", 1001)
@@ -329,11 +330,48 @@ class MenuActivity : AppCompatActivity() {
         if(resultCode == Activity.RESULT_OK){
             val menuID = data?.getIntExtra("menuID", 0)
             val menuName = data?.getStringExtra("menuName")
-            val optionID = data?.getIntExtra("optionID", 0)
             val price = data?.getIntExtra("price", 0)
             val count = data?.getIntExtra("count", 0)
-            val totalOption = data?.getSerializableExtra("optionSelected")
-            System.out.println("값은 받아옴")
+            var TotalOption = data?.getSerializableExtra("optionSelected")
+            System.out.println(TotalOption)
+            val k = TotalOption.toString().split(",").toMutableList()
+            System.out.println(k)
+            for (i : Int in 0 until k.size){
+                k[i]=k[i].replace("[", "")
+                k[i]=k[i].replace("optionSelected(", "")
+                k[i]=k[i].replace(")", "")
+                k[i]=k[i].replace("]", "")
+                k[i]=k[i].replace(" ", "")
+                k[i]=k[i].replace(" ", "")
+                k[i]=k[i].replace("menuID=", "")
+                k[i]=k[i].replace("optionName=", "")
+                k[i]=k[i].replace("OptionID=", "")
+            }
+            System.out.println(k[0])
+            System.out.println(k[1])
+            System.out.println(k[2])
+            System.out.println(k)
+            /*for (t : Int in 0 until k.size step 3){
+                while(t <= k.size ){
+                    k[t] == k[t+3]
+                    k[t+]
+                }
+            }*/ //메인 메뉴 겹치면 옵션 합치는 작업 시도중 optionName --> 중, 쌈추가 이런식으로,
+
+            var contentValues2 = ContentValues()
+            for (j : Int in 0 until k.size step 3){
+                val a = Integer.parseInt(k[j])
+                val b = Integer.parseInt(k[j+1])
+                contentValues2.put("menuID",a)
+                contentValues2.put("OptionID",b)
+                contentValues2.put("OptionName",k[j+2])
+                database.insert("OptionTable",null,contentValues2)
+                System.out.println("DB : "+ contentValues2)
+            }
+
+
+
+            System.out.println("값 받아옴")
             //이 정보들+아래 총 가격(totalPrice) 다 디비에 저장해야 함(아래 함수에 구현) *totalOption은 배열(optionSelected 클래스)임에 주의
             //값을 전역변수로 해야 아래 함수에서 접근할 수 있을것 같음
             var contentValues = ContentValues()
@@ -341,7 +379,7 @@ class MenuActivity : AppCompatActivity() {
             contentValues.put("menuName",menuName)
             contentValues.put("count",count)
             contentValues.put("price",price)
-            contentValues.put("optionID",optionID)
+
 
             database.insert("mytable",null,contentValues)
             System.out.println("DB : "+ contentValues)
