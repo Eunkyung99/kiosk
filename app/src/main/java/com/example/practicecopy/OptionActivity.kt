@@ -83,6 +83,7 @@ class OptionActivity : Activity() {
                     //배열에 옵션ID 배열(옵션 여러 개 가능), 메뉴ID, 가격(totalPrice), 수량 저장하기
                 }
             }
+
         })
     }
 
@@ -182,7 +183,14 @@ class OptionActivity : Activity() {
         returnIntent.putExtra("menuName", menuName)
         //returnIntent.putExtra("optionID", optionID) //이 부분 배열로 전송해야 할 것
         returnIntent.putExtra("count", count)
-        returnIntent.putExtra("optionSelected", totalOption) //배열로 전송 수정
+        System.out.println("monselect의 totaloption은? :" + totalOption)
+        System.out.println("monselect의 totaloption의 boolean? :" + totalOption.toString().isEmpty())
+        if (totalOption.toString()=="[]"){
+            returnIntent.putExtra("optionSelected", optionSelected(menuID, 0, ""))
+            System.out.println("returnIntent" + returnIntent)
+        }
+        else { returnIntent.putExtra("optionSelected",totalOption) }
+        System.out.println("monselect" + totalOption)
         setResult(Activity.RESULT_OK, returnIntent)
         finish()
     }

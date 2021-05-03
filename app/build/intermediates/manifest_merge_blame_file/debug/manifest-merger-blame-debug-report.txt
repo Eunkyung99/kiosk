@@ -33,46 +33,47 @@
 21-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:12:9-54
 22        android:supportsRtl="true"
 22-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:13:9-35
-23        android:theme="@style/Theme.PracticeCopy"
-23-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:14:9-50
-24        android:usesCleartextTraffic="true" >
-24-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:15:9-44
-25        <activity android:name="com.example.practicecopy.OrderActivity" />
-25-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:16:9-51
-25-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:16:19-48
-26        <activity android:name="com.example.practicecopy.MenuActivity" />
-26-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:17:9-50
-26-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:17:19-47
-27        <activity android:name="com.example.practicecopy.StoreListActivity" />
-27-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:18:9-55
-27-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:18:19-52
-28        <activity
-28-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:19:9-21:59
-29            android:name="com.example.practicecopy.OptionActivity"
-29-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:20:13-43
-30            android:theme="@android:style/Theme.Dialog" />
-30-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:21:13-56
-31        <activity android:name="com.example.practicecopy.MainActivity" >
-31-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:22:9-28:20
-31-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:22:19-47
-32            <intent-filter>
-32-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:23:13-27:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:24:17-69
-33-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:24:25-66
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:26:17-77
-35-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:26:27-74
-36            </intent-filter>
-37        </activity>
-38
-39        <meta-data
-39-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:30:9-32:57
-40            android:name="preloaded_fonts"
-40-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:31:13-43
-41            android:resource="@array/preloaded_fonts" />
-41-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:32:13-54
-42    </application>
-43
-44</manifest>
+23        android:testOnly="true"
+24        android:theme="@style/Theme.PracticeCopy"
+24-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:14:9-50
+25        android:usesCleartextTraffic="true" >
+25-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:15:9-44
+26        <activity android:name="com.example.practicecopy.OrderActivity" />
+26-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:16:9-51
+26-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:16:19-48
+27        <activity android:name="com.example.practicecopy.MenuActivity" />
+27-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:17:9-50
+27-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:17:19-47
+28        <activity android:name="com.example.practicecopy.StoreListActivity" />
+28-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:18:9-55
+28-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:18:19-52
+29        <activity
+29-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:19:9-21:59
+30            android:name="com.example.practicecopy.OptionActivity"
+30-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:20:13-43
+31            android:theme="@android:style/Theme.Dialog" />
+31-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:21:13-56
+32        <activity android:name="com.example.practicecopy.MainActivity" >
+32-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:22:9-28:20
+32-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:22:19-47
+33            <intent-filter>
+33-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:23:13-27:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:24:17-69
+34-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:24:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:26:17-77
+36-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:26:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <meta-data
+40-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:30:9-32:57
+41            android:name="preloaded_fonts"
+41-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:31:13-43
+42            android:resource="@array/preloaded_fonts" />
+42-->C:\Users\MOON\Desktop\kiosk\app\src\main\AndroidManifest.xml:32:13-54
+43    </application>
+44
+45</manifest>

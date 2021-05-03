@@ -333,41 +333,42 @@ class MenuActivity : AppCompatActivity() {
             val price = data?.getIntExtra("price", 0)
             val count = data?.getIntExtra("count", 0)
             var TotalOption = data?.getSerializableExtra("optionSelected")
-            System.out.println(TotalOption)
+            System.out.println("Menuactiviy + Total option" + TotalOption)
+            var contentValues2 = ContentValues()
+
             val k = TotalOption.toString().split(",").toMutableList()
             System.out.println(k)
-            for (i : Int in 0 until k.size){
-                k[i]=k[i].replace("[", "")
-                k[i]=k[i].replace("optionSelected(", "")
-                k[i]=k[i].replace(")", "")
-                k[i]=k[i].replace("]", "")
-                k[i]=k[i].replace(" ", "")
-                k[i]=k[i].replace(" ", "")
-                k[i]=k[i].replace("menuID=", "")
-                k[i]=k[i].replace("optionName=", "")
-                k[i]=k[i].replace("OptionID=", "")
-            }
-            System.out.println(k[0])
-            System.out.println(k[1])
-            System.out.println(k[2])
-            System.out.println(k)
-            /*for (t : Int in 0 until k.size step 3){
+            for (i: Int in 0 until k.size) {
+                k[i] = k[i].replace("[", "")
+                k[i] = k[i].replace("optionSelected(", "")
+                k[i] = k[i].replace(")", "")
+                    k[i] = k[i].replace("]", "")
+                    k[i] = k[i].replace(" ", "")
+                    k[i] = k[i].replace(" ", "")
+                    k[i] = k[i].replace("menuID=", "")
+                    k[i] = k[i].replace("optionName=", "")
+                    k[i] = k[i].replace("OptionID=", "")
+                }
+                System.out.println(k[0])
+                System.out.println(k[1])
+                System.out.println(k[2])
+                System.out.println(k)
+                /*for (t : Int in 0 until k.size step 3){
                 while(t <= k.size ){
                     k[t] == k[t+3]
                     k[t+]
                 }
             }*/ //메인 메뉴 겹치면 옵션 합치는 작업 시도중 optionName --> 중, 쌈추가 이런식으로,
 
-            var contentValues2 = ContentValues()
-            for (j : Int in 0 until k.size step 3){
-                val a = Integer.parseInt(k[j])
-                val b = Integer.parseInt(k[j+1])
-                contentValues2.put("menuID",a)
-                contentValues2.put("OptionID",b)
-                contentValues2.put("OptionName",k[j+2])
-                database.insert("OptionTable",null,contentValues2)
-                System.out.println("DB : "+ contentValues2)
-            }
+                for (j: Int in 0 until k.size step 3) {
+                    val a = Integer.parseInt(k[j])
+                    val b = Integer.parseInt(k[j + 1])
+                    contentValues2.put("menuID", a)
+                    contentValues2.put("OptionID", b)
+                    contentValues2.put("OptionName", k[j + 2])
+                    database.insert("OptionTable", null, contentValues2)
+                    System.out.println("DB : " + contentValues2)
+                }
 
 
 
@@ -379,6 +380,9 @@ class MenuActivity : AppCompatActivity() {
             contentValues.put("menuName",menuName)
             contentValues.put("count",count)
             contentValues.put("price",price)
+
+
+
 
 
             database.insert("mytable",null,contentValues)
@@ -400,5 +404,6 @@ class MenuActivity : AppCompatActivity() {
         //세환님 위에서 받은 메뉴아이디, 옵션 아이디, 가격, 수량 데이터베이스에 insert 해주는 부분
 
         startActivity(intent)
+
     }
 }

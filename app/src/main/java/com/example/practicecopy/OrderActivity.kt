@@ -49,11 +49,13 @@ class OrderActivity : AppCompatActivity() {
 
                 }
             } finally {
+
             }
         }
 
     fun Delete(view: View) { //전체 삭제 기능
         database.execSQL("delete from " +"mytable")
+        database.execSQL("delete from " +"OptionTable")
         finish()
 
     }
