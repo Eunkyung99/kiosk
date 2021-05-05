@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
+            "outputFile": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\MOON\\.gradle\\caches\\transforms-2\\files-2.1\\b8442d1a053301bf03731549a6e70699\\core-1.6.0-alpha02\\res\\values-en-rCA\\values-en-rCA.xml",
