@@ -1704,6 +1704,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable dessert
+drawable edge
 drawable fastfood
 drawable food
 drawable ic_clock_black_24dp
@@ -1753,6 +1754,7 @@ drawable snack
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable trash
 drawable western
 drawable write_button
 font amatic_sc
@@ -1764,7 +1766,6 @@ id Deletebutton
 id FUNCTION
 id META
 id NO_DEBUG
-id PhotoImg
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -2050,9 +2051,13 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id number
 id off
 id on
 id optionTv
+id optionTv2
+id optionTv3
+id optionTv4
 id outline
 id outward
 id packed
@@ -2071,6 +2076,7 @@ id pin
 id plus
 id position
 id postLayout
+id price
 id priceTv
 id progress_circular
 id progress_horizontal
@@ -2200,8 +2206,11 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id trash
 id triangle
 id tv_menuname
+id tv_optionname
+id tv_optionprice
 id tv_price
 id tv_storeAddress
 id tv_storeName
@@ -2364,6 +2373,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout optionview_item
 layout order_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material

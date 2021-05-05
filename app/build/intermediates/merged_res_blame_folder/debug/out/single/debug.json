@@ -32,6 +32,10 @@
         "source": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\drawable_trash.png.flat",
+        "source": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\src\\main\\res\\drawable\\trash.png"
+    },
+    {
         "merged": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_asian.png.flat",
         "source": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\src\\main\\res\\drawable-v24\\asian.png"
     },
@@ -72,12 +76,20 @@
         "source": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\src\\main\\res\\drawable-v24\\meat.png"
     },
     {
+        "merged": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\layout_optionview_item.xml.flat",
+        "source": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\src\\main\\res\\layout\\optionview_item.xml"
+    },
+    {
         "merged": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\layout_order_item.xml.flat",
         "source": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\src\\main\\res\\layout\\order_item.xml"
     },
     {
         "merged": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\drawable_write_button.png.flat",
         "source": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\src\\main\\res\\drawable\\write_button.png"
+    },
+    {
+        "merged": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edge.xml.flat",
+        "source": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\src\\main\\res\\drawable\\edge.xml"
     },
     {
         "merged": "C:\\Users\\MOON\\Desktop\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\layout_menuview_item.xml.flat",

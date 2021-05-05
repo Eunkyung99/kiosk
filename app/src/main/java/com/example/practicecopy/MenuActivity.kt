@@ -353,18 +353,56 @@ class MenuActivity : AppCompatActivity() {
                 System.out.println(k[1])
                 System.out.println(k[2])
                 System.out.println(k)
-                /*for (t : Int in 0 until k.size step 3){
-                while(t <= k.size ){
-                    k[t] == k[t+3]
-                    k[t+]
+            if(k.size > 3) {
+                var w:Int=0
+                while (w < k.size){
+                    if (k[w] == k[w + 3]) {
+                        System.out.println("k.size의 값 : " + k.size)
+
+                        var CopyOptionID = k[w + 1] + "," + k[w + 4]
+                        k[w + 1] = CopyOptionID
+                        var CopyOptionName = k[w + 2] + "," + k[w + 5]
+                        k[w + 2] = CopyOptionName
+                        System.out.println(k[w + 1])
+                        System.out.println(k[w + 2])
+                        k.removeAt(w + 3)
+                        k.removeAt(w + 3)
+                        k.removeAt(w + 3)
+                        System.out.println(k)
+                        System.out.println("k.size의 값 : " + k.size)
+                        System.out.println("w의 값 : " + w)
+                        if (w >= k.size -3 ) break
+                    }
                 }
-            }*/ //메인 메뉴 겹치면 옵션 합치는 작업 시도중 optionName --> 중, 쌈추가 이런식으로,
+               /* for (t in 0 until k.size - 2 step 3) {
+                    if (k[t] == k[t + 3]) {
+                        System.out.println("k.size의 값 : " + k.size)
+
+                        var CopyOptionID = k[t + 1] + "," + k[t + 4]
+                        k[t + 1] = CopyOptionID
+                        var CopyOptionName = k[t + 2] + "," + k[t + 5]
+                        k[t + 2] = CopyOptionName
+                        System.out.println(k[t + 1])
+                        System.out.println(k[t + 2])
+                        k.removeAt(t + 3)
+                        k.removeAt(t + 3)
+                        k.removeAt(t + 3)
+                        System.out.println(k)
+                        if (t == k.size) break
+                        System.out.println("k.size의 값 : " + k.size)
+                        System.out.println("t의 값 : " + t)
+
+                    }
+                }*/
+            }
+
+            System.out.println(k)
+            //메인 메뉴 겹치면 옵션 합치는 작업 시도중 optionName --> 중, 쌈추가 이런식으로,
 
                 for (j: Int in 0 until k.size step 3) {
                     val a = Integer.parseInt(k[j])
-                    val b = Integer.parseInt(k[j + 1])
                     contentValues2.put("menuID", a)
-                    contentValues2.put("OptionID", b)
+                    contentValues2.put("OptionID", k[j + 1])
                     contentValues2.put("OptionName", k[j + 2])
                     database.insert("OptionTable", null, contentValues2)
                     System.out.println("DB : " + contentValues2)
@@ -376,13 +414,11 @@ class MenuActivity : AppCompatActivity() {
             //이 정보들+아래 총 가격(totalPrice) 다 디비에 저장해야 함(아래 함수에 구현) *totalOption은 배열(optionSelected 클래스)임에 주의
             //값을 전역변수로 해야 아래 함수에서 접근할 수 있을것 같음
             var contentValues = ContentValues()
+
             contentValues.put("menuID",menuID)
             contentValues.put("menuName",menuName)
             contentValues.put("count",count)
             contentValues.put("price",price)
-
-
-
 
 
             database.insert("mytable",null,contentValues)
@@ -400,9 +436,7 @@ class MenuActivity : AppCompatActivity() {
     fun moveToPay(v: View?){
         val intent = Intent(this, OrderActivity::class.java)
         // 장바구니 화면으로 넘어가는 부분 전송할 값 있으면 아래 함수 사용
-        // intent.putExtra("categoryID", categoryID)
-        //세환님 위에서 받은 메뉴아이디, 옵션 아이디, 가격, 수량 데이터베이스에 insert 해주는 부분
-
+        intent.putExtra("totalPrice", totalPrice)
         startActivity(intent)
 
     }

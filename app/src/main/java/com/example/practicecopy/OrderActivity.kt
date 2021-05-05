@@ -3,8 +3,10 @@ package com.example.practicecopy
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_order.*
 
 class OrderActivity : AppCompatActivity() {
@@ -14,8 +16,15 @@ class OrderActivity : AppCompatActivity() {
     var orderList = arrayListOf<orderData>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        System.out.println(orderList)
-        System.out.println("OrderActivity 들어옴")
+        val intent = intent
+        val totalPrice = intent.getIntExtra("totalPrice", 0)
+        //totalPrice 값은 확인
+        //아래 부분 적용이 안 됨
+        //val price = findViewById<TextView>(R.id.price)
+        //price?.text =totalPrice.toString()
+
+        //System.out.println(orderList)
+        //System.out.println("OrderActivity 들어옴")
         dbHelper = DBHelper(this, "newdb.db", null, 1)
         database = dbHelper.writableDatabase
 
@@ -24,12 +33,11 @@ class OrderActivity : AppCompatActivity() {
         setContentView(R.layout.activity_order)
         val orderAdapter = OrderListAdapter(this, orderList)
         listView.adapter = orderAdapter
-
     }
         fun selectOrder() {
-            System.out.println("SelectOrder 들어옴")
+            //System.out.println("SelectOrder 들어옴")
             val Order = "select mytable.menuID, mytable.menuName, mytable.price, mytable.count, OptionTable.optionID, OptionTable.OptionName" +
-                    " from mytable LEFT OUTER JOIN OptionTable ON mytable.menuID = OptionTable.menuID"
+                    " from mytable LEFT OUTER JOIN OptionTable ON mytable.id = OptionTable.id"
             var cursor = database.rawQuery(Order, null)
             try {
                 if (cursor != null) {
@@ -41,7 +49,7 @@ class OrderActivity : AppCompatActivity() {
                             val price = cursor.getLong(cursor.getColumnIndex("price"))
                             val count = cursor.getString(cursor.getColumnIndex("count"))
                             val OptionName = cursor.getString(cursor.getColumnIndex("OptionName"))
-                            orderList.add(orderData(menuName, price.toInt(), OptionName, count))
+                            orderList.add(orderData(menuName, price.toInt(), OptionName, count.toInt()))
                             System.out.println(orderList)
                         } while (cursor.moveToNext())
                     }

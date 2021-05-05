@@ -16,20 +16,11 @@ class StoreListActivity : AppCompatActivity() {
 
         val categoryID = intent.getIntExtra("categoryID", 1001)
 
-        when(categoryID){
-            1001 -> { FirstFragment() }
-            1002 -> { SecondFragment() }
-            1003 -> { ThirdFragment() }
-            1004 -> { FourthFragment() }
-            1005 -> { FifthFragment() }
-            1006 -> { SixthFragment() }
-            1007 -> { SeventhFragment() }
-            1008 -> { EighthFragment() }
-            1009 -> { NinethFragment() }
-        }
-
         val fragmentAdapter = FragmentAdpater(supportFragmentManager)
         list_viewpager.adapter = fragmentAdapter
+
+        var pos = categoryID-1001
+        list_viewpager.currentItem = pos
 
         tab_layout.addTab(tab_layout.newTab().setCustomView(createTabView("한식")))
         tab_layout.addTab(tab_layout.newTab().setCustomView(createTabView("중식")))
