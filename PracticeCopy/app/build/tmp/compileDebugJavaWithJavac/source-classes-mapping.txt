@@ -1,2 +1,0 @@
-com/example/practicecopy/BuildConfig.java
- com.example.practicecopy.BuildConfig
