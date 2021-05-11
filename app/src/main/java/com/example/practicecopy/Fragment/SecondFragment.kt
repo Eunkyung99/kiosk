@@ -1,5 +1,6 @@
 package com.example.practicecopy.Fragment
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,10 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.AdapterView
 import android.widget.ListView
-import com.example.practicecopy.MenuActivity
-import com.example.practicecopy.MyAdapter
-import com.example.practicecopy.R
-import com.example.practicecopy.storeData
+import com.example.practicecopy.*
 import kotlinx.android.synthetic.main.fragment_first.view.*
 import java.io.BufferedReader
 import java.io.IOException
@@ -25,6 +23,11 @@ class SecondFragment : Fragment() {
     var listView: ListView? = null
     var myAdapter: MyAdapter? = null
     var storeItems = ArrayList<storeData>()
+
+    private lateinit var userID: String
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        userID = (activity as StoreListActivity).getuserID() }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -64,6 +67,8 @@ class SecondFragment : Fragment() {
             intent.putExtra("storeName",storename)
             intent.putExtra("storeAddress", storeaddress)
             intent.putExtra("storeImage", storeImage)
+            intent.putExtra("QR", 1) //0505
+            intent.putExtra("userID", userID) //0512
             startActivity(intent)
         })
 

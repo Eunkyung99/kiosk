@@ -10,11 +10,14 @@ import kotlinx.android.synthetic.main.activity_store_list.*
 import kotlinx.android.synthetic.main.custom_tab.view.*
 
 class StoreListActivity : AppCompatActivity() {
+    private var userID=""
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_store_list)
 
         val categoryID = intent.getIntExtra("categoryID", 1001)
+        userID = intent.getStringExtra("userID").toString()
 
         val fragmentAdapter = FragmentAdpater(supportFragmentManager)
         list_viewpager.adapter = fragmentAdapter
@@ -70,6 +73,10 @@ class StoreListActivity : AppCompatActivity() {
         tabView.txt_name.text = tabName
 
         return tabView
+    }
+
+    fun getuserID(): String {
+        return userID
     }
 
 

@@ -1,162 +1,206 @@
 [
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\layout_listview_item.xml.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\layout\\listview_item.xml"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/drawable-v24_asian.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/drawable-v24/asian.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\drawable_write_button.png.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\drawable\\write_button.png"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/drawable-v24_food.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/drawable-v24/food.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_dessert.png.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\drawable-v24\\dessert.png"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/layout_activity_option.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/layout/activity_option.xml"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\layout_order_item.xml.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\layout\\order_item.xml"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/drawable-v24_western.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/drawable-v24/western.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\layout_gridview_item.xml.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\layout\\gridview_item.xml"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/font_jua.ttf.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/font/jua.ttf"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/drawable-v24_dessert.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/drawable-v24/dessert.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_food.png.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\drawable-v24\\food.png"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/layout_optionview_item.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/layout/optionview_item.xml"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/drawable-v24_chinese.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/drawable-v24/chinese.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\font_amatic_sc.xml.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\font\\amatic_sc.xml"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/layout_gridview_item.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/layout/gridview_item.xml"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\drawable_trash.png.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\drawable\\trash.png"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_tab.xml.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\layout\\custom_tab.xml"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/drawable-v24_pay_cash.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/drawable-v24/pay_cash.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order.xml.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\layout\\activity_order.xml"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/drawable-v24_bill.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/drawable-v24/bill.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/layout_activity_payment.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/layout/activity_payment.xml"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\layout_menuview_item.xml.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\layout\\menuview_item.xml"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\layout_optionview_item.xml.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\layout\\optionview_item.xml"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/drawable_write_button.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/drawable/write_button.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_first.xml.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\layout\\fragment_first.xml"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/drawable-v24_fastfood.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/drawable-v24/fastfood.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_japanese.png.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\drawable-v24\\japanese.png"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/layout_custom_loading_dialog.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/layout/custom_loading_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_asian.png.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\drawable-v24\\asian.png"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/drawable-v24_snack.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/drawable-v24/snack.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/layout_menuview_item.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/layout/menuview_item.xml"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_store_list.xml.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\layout\\activity_store_list.xml"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/drawable-v24_japanese.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/drawable-v24/japanese.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_chinese.png.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\drawable-v24\\chinese.png"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/drawable-v24_coin.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/drawable-v24/coin.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_menu.xml.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\layout\\activity_menu.xml"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_fastfood.png.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\drawable-v24\\fastfood.png"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/font_amatic_sc.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/font/amatic_sc.xml"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_meat.png.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\drawable-v24\\meat.png"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/layout_order_item.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/layout/order_item.xml"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/drawable-v24_korean.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/drawable-v24/korean.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_korean.png.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\drawable-v24\\korean.png"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_option.xml.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\layout\\activity_option.xml"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/layout_listview_item.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/layout/listview_item.xml"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_snack.png.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\drawable-v24\\snack.png"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/layout_activity_complete.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/layout/activity_complete.xml"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edge.xml.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\drawable\\edge.xml"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_western.png.flat",
-        "source": "C:\\Users\\MOON\\Desktop\\Capstone\\kiosk\\app\\src\\main\\res\\drawable-v24\\western.png"
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/layout_activity_register.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/layout_activity_order.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/layout/activity_order.xml"
+    },
+    {
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/anim_turn_horizontal.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/anim/turn_horizontal.xml"
+    },
+    {
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/font_font_jua.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/font/font_jua.xml"
+    },
+    {
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/drawable-v24_meat.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/drawable-v24/meat.png"
+    },
+    {
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/drawable_edge.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/drawable/edge.xml"
+    },
+    {
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/layout_activity_menu.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/layout/activity_menu.xml"
+    },
+    {
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/layout_activity_store_list.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/layout/activity_store_list.xml"
+    },
+    {
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/drawable_trash.png.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/drawable/trash.png"
+    },
+    {
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/layout_fragment_first.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/layout/fragment_first.xml"
+    },
+    {
+        "merged": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/res/merged/debug/layout_custom_tab.xml.flat",
+        "source": "/Users/gang/Downloads/kiosk 2/app/src/main/res/layout/custom_tab.xml"
     }
 ]

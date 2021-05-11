@@ -37,33 +37,6 @@ xmlns:tools="http://schemas.android.com/tools">
         tools:text="옵션1" />
 
     <TextView
-        android:id="@+id/optionTv2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="@+id/menuTv"
-        app:layout_constraintTop_toBottomOf="@+id/optionTv"
-        tools:text="옵션2" />
-
-    <TextView
-        android:id="@+id/optionTv3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="@+id/menuTv"
-        app:layout_constraintTop_toBottomOf="@+id/optionTv2"
-        tools:text="옵션3" />
-
-    <TextView
-        android:id="@+id/optionTv4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="@+id/menuTv"
-        app:layout_constraintTop_toBottomOf="@+id/optionTv3"
-        tools:text="옵션4" />
-
-    <TextView
         android:id="@+id/priceTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

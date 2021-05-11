@@ -1,6 +1,8 @@
 package com.example.practicecopy.Fragment
 
+import android.content.Context
 import android.content.Intent
+import android.content.Intent.getIntent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -8,10 +10,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.AdapterView
 import android.widget.ListView
-import com.example.practicecopy.MenuActivity
-import com.example.practicecopy.MyAdapter
-import com.example.practicecopy.R
-import com.example.practicecopy.storeData
+import com.example.practicecopy.*
 import kotlinx.android.synthetic.main.fragment_first.view.*
 import java.io.BufferedReader
 import java.io.IOException
@@ -25,6 +24,12 @@ class FirstFragment : Fragment() {
     var listView: ListView? = null
     var myAdapter: MyAdapter? = null
     var storeItems = ArrayList<storeData>()
+
+    private lateinit var userID: String
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        userID = (activity as StoreListActivity).getuserID() }
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -48,9 +53,6 @@ class FirstFragment : Fragment() {
             startActivity(intent)
         })
 
-        /*이제 리스트뷰하나 누를때마다 그 리스트뷰 아이템 position에 해당하는 number나 title값이 intent에
-        담겨 전달됩니다. 그래서 각 menu화면 왼쪽상단 확인하시면 잘 안보이시겠지만 가게이름이 각각 다르게
-        표시되는 걸 확인할 수 있을겁니다.*/
         view.listView.setOnItemClickListener(AdapterView.OnItemClickListener { parent, view, position, id ->
             val categoryID = storeItems[position].categoryID
             val storenumber = storeItems[position].storeID
@@ -64,6 +66,8 @@ class FirstFragment : Fragment() {
             intent.putExtra("storeName",storename)
             intent.putExtra("storeAddress", storeaddress)
             intent.putExtra("storeImage", storeImage)
+            intent.putExtra("QR", 1) //0505
+            intent.putExtra("userID", userID) //0512
             startActivity(intent)
         })
 

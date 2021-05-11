@@ -6,74 +6,114 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml
+8-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml
+9-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" /> <!-- 파일 업로드 시 외부저장소 권한 -->
-11-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:5:22-64
+11-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-12-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:6:5-81
-12-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:6:22-78
+12-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:6:5-81
+12-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:6:22-78
 13
 14    <application
-14-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:8:5-33:19
+14-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:9:5-54:19
 15        android:allowBackup="true"
-15-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:9:9-35
+15-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:10:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.6.0-alpha02] C:\Users\MOON\.gradle\caches\transforms-2\files-2.1\b8442d1a053301bf03731549a6e70699\core-1.6.0-alpha02\AndroidManifest.xml:24:18-86
+16-->[androidx.core:core:1.6.0-alpha03] /Users/gang/.gradle/caches/transforms-2/files-2.1/eb7c68a659fd69fc1a6fe12d0c93f94e/core-1.6.0-alpha03/AndroidManifest.xml:24:18-86
 17        android:debuggable="true"
 18        android:extractNativeLibs="false"
 19        android:icon="@mipmap/ic_launcher"
-19-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:10:9-43
+19-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:11:9-43
 20        android:label="@string/app_name"
-20-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:11:9-41
+20-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:12:9-41
 21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:12:9-54
+21-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:13:9-54
 22        android:supportsRtl="true"
-22-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:13:9-35
+22-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:14:9-35
 23        android:testOnly="true"
 24        android:theme="@style/Theme.PracticeCopy"
-24-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:14:9-50
+24-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:15:9-50
 25        android:usesCleartextTraffic="true" >
-25-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:15:9-44
-26        <activity android:name="com.example.practicecopy.OrderActivity" />
-26-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:16:9-51
-26-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:16:19-48
-27        <activity android:name="com.example.practicecopy.MenuActivity" />
-27-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:17:9-50
-27-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:17:19-47
-28        <activity android:name="com.example.practicecopy.StoreListActivity" />
-28-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:18:9-55
-28-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:18:19-52
-29        <activity
-29-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:19:9-21:59
-30            android:name="com.example.practicecopy.OptionActivity"
-30-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:20:13-43
-31            android:theme="@android:style/Theme.Dialog" />
-31-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:21:13-56
-32        <activity android:name="com.example.practicecopy.MainActivity" >
-32-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:22:9-28:20
-32-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:22:19-47
-33            <intent-filter>
-33-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:23:13-27:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:24:17-69
-34-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:24:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:26:17-77
-36-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:26:27-74
-37            </intent-filter>
-38        </activity>
+25-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:16:9-44
+26        <uses-library
+26-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:18:9-20:40
+27            android:name="org.apache.http.legacy"
+27-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:19:13-50
+28            android:required="false" />
+28-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:20:13-37
+29
+30        <activity android:name="com.example.practicecopy.OrderActivity" />
+30-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:23:9-51
+30-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:23:19-48
+31        <activity android:name="com.example.practicecopy.PaymentActivity" />
+31-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:24:9-53
+31-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:24:19-50
+32        <activity android:name="com.example.practicecopy.CompleteActivity" />
+32-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:25:9-54
+32-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:25:19-51
+33        <activity android:name="com.example.practicecopy.MenuActivity" >
+33-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:26:9-37:20
+33-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:26:19-47
+34            <intent-filter>
+34-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:27:13-36:29
+35                <action android:name="android.intent.action.VIEW" />
+35-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:28:17-69
+35-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:28:25-66
+36
+37                <category android:name="android.intent.category.BROWSABLE" />
+37-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:30:17-78
+37-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:30:27-75
+38                <category android:name="android.intent.category.DEFAULT" />
+38-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:31:17-76
+38-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:31:27-73
 39
-40        <meta-data
-40-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:30:9-32:57
-41            android:name="preloaded_fonts"
-41-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:31:13-43
-42            android:resource="@array/preloaded_fonts" />
-42-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:32:13-54
-43    </application>
-44
-45</manifest>
+40                <data
+40-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:33:17-35:45
+41                    android:host="54.180.149.204"
+41-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:34:21-50
+42                    android:scheme="http" />
+42-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:35:21-42
+43            </intent-filter>
+44        </activity>
+45        <activity android:name="com.example.practicecopy.StoreListActivity" />
+45-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:38:9-55
+45-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:38:19-52
+46        <activity android:name="com.example.practicecopy.LoginActivity" />
+46-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:39:9-51
+46-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:39:19-48
+47        <activity android:name="com.example.practicecopy.RegisterActivity" />
+47-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:40:9-54
+47-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:40:19-51
+48        <activity
+48-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:41:9-43:59
+49            android:name="com.example.practicecopy.OptionActivity"
+49-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:42:13-43
+50            android:theme="@android:style/Theme.Dialog" />
+50-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:43:13-56
+51        <activity android:name="com.example.practicecopy.MainActivity" >
+51-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:44:9-49:20
+51-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:44:19-47
+52            <intent-filter>
+52-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:45:13-48:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:46:17-69
+53-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:46:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:47:17-77
+55-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:47:27-74
+56            </intent-filter>
+57        </activity>
+58
+59        <meta-data
+59-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:51:9-53:57
+60            android:name="preloaded_fonts"
+60-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:52:13-43
+61            android:resource="@array/preloaded_fonts" />
+61-->/Users/gang/Downloads/kiosk 2/app/src/main/AndroidManifest.xml:53:13-54
+62    </application>
+63
+64</manifest>

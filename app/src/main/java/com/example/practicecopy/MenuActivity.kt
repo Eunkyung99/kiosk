@@ -8,11 +8,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
-import android.widget.Button
 import android.widget.GridView
 import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_menu.*
-import kotlinx.android.synthetic.main.fragment_first.view.*
 import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStreamReader
@@ -43,6 +41,12 @@ class MenuActivity : AppCompatActivity() {
     var price = 0
     var count = 0
 
+    var userID = ""
+
+    var qr = 0 //기본 값 0505
+
+    var realstoreID = 0
+
     private var tv_price : TextView? = null
 
     var totalPrice = 0
@@ -62,10 +66,31 @@ class MenuActivity : AppCompatActivity() {
         val storeName = intent.getStringExtra("storeName")
         val storeImage = intent.getStringExtra("storeImage")
         val storeAddress = intent.getStringExtra("storeAddress")
+        userID = intent.getStringExtra("userID").toString()
+        //0505
+
+        qr = intent.getIntExtra("QR", 3)
         store.setText(storeName)
+        if(qr==1) {
+            loadDB(storeID)
+            realstoreID = storeID
+        }
+        //var storeID2 = 0
+        //큐알코드로 열었을 때 0505
+        if (intent != null) {
+            val uri = intent.data
+            if (uri != null) {
+                val storeID2 = uri.getQueryParameter("storeID")
+                val storeName2 = uri.getQueryParameter("storeName")
+                store.setText(storeName2)
+                if (storeID2 != null) {
+                    loadDB(storeID2.toInt())
+                    realstoreID = storeID2.toInt()
+                }
+            }
+        }
 
         tv_price= findViewById<TextView>(R.id.totalprice)
-        loadDB(storeID)
 
         gridview1 = findViewById(R.id.gridview1)
         menuviewAdapter1 = MenuviewAdapter(layoutInflater, menuItems)
@@ -333,11 +358,11 @@ class MenuActivity : AppCompatActivity() {
             val price = data?.getIntExtra("price", 0)
             val count = data?.getIntExtra("count", 0)
             var TotalOption = data?.getSerializableExtra("optionSelected")
-            System.out.println("Menuactiviy + Total option" + TotalOption)
+
             var contentValues2 = ContentValues()
 
             val k = TotalOption.toString().split(",").toMutableList()
-            System.out.println(k)
+
             for (i: Int in 0 until k.size) {
                 k[i] = k[i].replace("[", "")
                 k[i] = k[i].replace("optionSelected(", "")
@@ -349,80 +374,39 @@ class MenuActivity : AppCompatActivity() {
                     k[i] = k[i].replace("optionName=", "")
                     k[i] = k[i].replace("OptionID=", "")
                 }
-                System.out.println(k[0])
-                System.out.println(k[1])
-                System.out.println(k[2])
-                System.out.println(k)
             if(k.size > 3) {
                 var w:Int=0
                 while (w < k.size){
                     if (k[w] == k[w + 3]) {
-                        System.out.println("k.size의 값 : " + k.size)
-
                         var CopyOptionID = k[w + 1] + "," + k[w + 4]
                         k[w + 1] = CopyOptionID
                         var CopyOptionName = k[w + 2] + "," + k[w + 5]
                         k[w + 2] = CopyOptionName
-                        System.out.println(k[w + 1])
-                        System.out.println(k[w + 2])
                         k.removeAt(w + 3)
                         k.removeAt(w + 3)
                         k.removeAt(w + 3)
-                        System.out.println(k)
-                        System.out.println("k.size의 값 : " + k.size)
-                        System.out.println("w의 값 : " + w)
                         if (w >= k.size -3 ) break
                     }
                 }
-               /* for (t in 0 until k.size - 2 step 3) {
-                    if (k[t] == k[t + 3]) {
-                        System.out.println("k.size의 값 : " + k.size)
-
-                        var CopyOptionID = k[t + 1] + "," + k[t + 4]
-                        k[t + 1] = CopyOptionID
-                        var CopyOptionName = k[t + 2] + "," + k[t + 5]
-                        k[t + 2] = CopyOptionName
-                        System.out.println(k[t + 1])
-                        System.out.println(k[t + 2])
-                        k.removeAt(t + 3)
-                        k.removeAt(t + 3)
-                        k.removeAt(t + 3)
-                        System.out.println(k)
-                        if (t == k.size) break
-                        System.out.println("k.size의 값 : " + k.size)
-                        System.out.println("t의 값 : " + t)
-
-                    }
-                }*/
             }
 
-            System.out.println(k)
-            //메인 메뉴 겹치면 옵션 합치는 작업 시도중 optionName --> 중, 쌈추가 이런식으로,
+            for (j: Int in 0 until k.size step 3) {
+                val a = Integer.parseInt(k[j])
+                contentValues2.put("menuID", a)
+                contentValues2.put("OptionID", k[j + 1])
+                contentValues2.put("OptionName", k[j + 2])
+                database.insert("OptionTable", null, contentValues2)
+            }
 
-                for (j: Int in 0 until k.size step 3) {
-                    val a = Integer.parseInt(k[j])
-                    contentValues2.put("menuID", a)
-                    contentValues2.put("OptionID", k[j + 1])
-                    contentValues2.put("OptionName", k[j + 2])
-                    database.insert("OptionTable", null, contentValues2)
-                    System.out.println("DB : " + contentValues2)
-                }
-
-
-
-            System.out.println("값 받아옴")
             //이 정보들+아래 총 가격(totalPrice) 다 디비에 저장해야 함(아래 함수에 구현) *totalOption은 배열(optionSelected 클래스)임에 주의
             //값을 전역변수로 해야 아래 함수에서 접근할 수 있을것 같음
             var contentValues = ContentValues()
-
             contentValues.put("menuID",menuID)
             contentValues.put("menuName",menuName)
             contentValues.put("count",count)
             contentValues.put("price",price)
 
-
             database.insert("mytable",null,contentValues)
-            System.out.println("DB : "+ contentValues)
             if (price != null) {
                 totalPrice += price
             } //가격 업데이트
@@ -436,8 +420,11 @@ class MenuActivity : AppCompatActivity() {
     fun moveToPay(v: View?){
         val intent = Intent(this, OrderActivity::class.java)
         // 장바구니 화면으로 넘어가는 부분 전송할 값 있으면 아래 함수 사용
-        intent.putExtra("totalPrice", totalPrice)
+        //intent.putExtra("totalPrice", totalPrice)
+        intent.putExtra("userID", userID)
+        intent.putExtra("storeID", realstoreID)
         startActivity(intent)
-
+        totalPrice = 0
+        tv_price?.text = totalPrice.toString()
     }
 }

@@ -23,9 +23,28 @@
         android:testOnly="true"
         android:theme="@style/Theme.PracticeCopy"
         android:usesCleartextTraffic="true" >
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
         <activity android:name="com.example.practicecopy.OrderActivity" />
-        <activity android:name="com.example.practicecopy.MenuActivity" />
+        <activity android:name="com.example.practicecopy.PaymentActivity" />
+        <activity android:name="com.example.practicecopy.CompleteActivity" />
+        <activity android:name="com.example.practicecopy.MenuActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="54.180.149.204"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.example.practicecopy.StoreListActivity" />
+        <activity android:name="com.example.practicecopy.LoginActivity" />
+        <activity android:name="com.example.practicecopy.RegisterActivity" />
         <activity
             android:name="com.example.practicecopy.OptionActivity"
             android:theme="@android:style/Theme.Dialog" />
