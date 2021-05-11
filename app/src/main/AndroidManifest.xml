@@ -13,6 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PracticeCopy"
         android:usesCleartextTraffic="true">
+        <activity android:name=".CompleteActivity"></activity>
+        <activity android:name=".PaymentActivity" />
         <activity android:name=".OrderActivity" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".StoreListActivity" />

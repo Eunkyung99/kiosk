@@ -84,7 +84,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
 
     <TextView
-        android:id="@+id/price"
+        android:id="@+id/orderprice"
         android:layout_width="57dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"

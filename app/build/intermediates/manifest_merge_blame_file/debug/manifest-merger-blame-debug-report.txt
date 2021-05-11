@@ -6,74 +6,80 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml
+8-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml
+9-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" /> <!-- 파일 업로드 시 외부저장소 권한 -->
-11-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-12-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:6:5-81
-12-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:6:22-78
+12-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:6:22-78
 13
 14    <application
-14-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:8:5-33:19
+14-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:8:5-35:19
 15        android:allowBackup="true"
-15-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:9:9-35
+15-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:9:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.6.0-alpha02] C:\Users\MOON\.gradle\caches\transforms-2\files-2.1\b8442d1a053301bf03731549a6e70699\core-1.6.0-alpha02\AndroidManifest.xml:24:18-86
+16-->[androidx.core:core:1.6.0-alpha03] C:\Users\twinh\.gradle\caches\transforms-2\files-2.1\eb7c68a659fd69fc1a6fe12d0c93f94e\core-1.6.0-alpha03\AndroidManifest.xml:24:18-86
 17        android:debuggable="true"
 18        android:extractNativeLibs="false"
 19        android:icon="@mipmap/ic_launcher"
-19-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:10:9-43
+19-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:10:9-43
 20        android:label="@string/app_name"
-20-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:11:9-41
+20-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:11:9-41
 21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:12:9-54
+21-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:12:9-54
 22        android:supportsRtl="true"
-22-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:13:9-35
+22-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:13:9-35
 23        android:testOnly="true"
 24        android:theme="@style/Theme.PracticeCopy"
-24-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:14:9-50
+24-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:14:9-50
 25        android:usesCleartextTraffic="true" >
-25-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:15:9-44
-26        <activity android:name="com.example.practicecopy.OrderActivity" />
-26-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:16:9-51
-26-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:16:19-48
-27        <activity android:name="com.example.practicecopy.MenuActivity" />
-27-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:17:9-50
-27-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:17:19-47
-28        <activity android:name="com.example.practicecopy.StoreListActivity" />
-28-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:18:9-55
-28-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:18:19-52
-29        <activity
-29-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:19:9-21:59
-30            android:name="com.example.practicecopy.OptionActivity"
-30-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:20:13-43
-31            android:theme="@android:style/Theme.Dialog" />
-31-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:21:13-56
-32        <activity android:name="com.example.practicecopy.MainActivity" >
-32-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:22:9-28:20
-32-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:22:19-47
-33            <intent-filter>
-33-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:23:13-27:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:24:17-69
-34-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:24:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:26:17-77
-36-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:26:27-74
-37            </intent-filter>
-38        </activity>
-39
-40        <meta-data
-40-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:30:9-32:57
-41            android:name="preloaded_fonts"
-41-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:31:13-43
-42            android:resource="@array/preloaded_fonts" />
-42-->C:\Users\MOON\Desktop\Capstone\kiosk\app\src\main\AndroidManifest.xml:32:13-54
-43    </application>
-44
-45</manifest>
+25-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:15:9-44
+26        <activity android:name="com.example.practicecopy.CompleteActivity" />
+26-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:16:9-63
+26-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:16:19-51
+27        <activity android:name="com.example.practicecopy.PaymentActivity" />
+27-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:17:9-53
+27-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:17:19-50
+28        <activity android:name="com.example.practicecopy.OrderActivity" />
+28-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:18:9-51
+28-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:18:19-48
+29        <activity android:name="com.example.practicecopy.MenuActivity" />
+29-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:19:9-50
+29-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:19:19-47
+30        <activity android:name="com.example.practicecopy.StoreListActivity" />
+30-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:20:9-55
+30-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:20:19-52
+31        <activity
+31-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:21:9-23:59
+32            android:name="com.example.practicecopy.OptionActivity"
+32-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:22:13-43
+33            android:theme="@android:style/Theme.Dialog" />
+33-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:23:13-56
+34        <activity android:name="com.example.practicecopy.MainActivity" >
+34-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:24:9-30:20
+34-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:24:19-47
+35            <intent-filter>
+35-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:25:13-29:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:26:17-69
+36-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:26:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:28:17-77
+38-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:28:27-74
+39            </intent-filter>
+40        </activity>
+41
+42        <meta-data
+42-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:32:9-34:57
+43            android:name="preloaded_fonts"
+43-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:33:13-43
+44            android:resource="@array/preloaded_fonts" />
+44-->C:\teamProject\kiosk\kiosk-1\app\src\main\AndroidManifest.xml:34:13-54
+45    </application>
+46
+47</manifest>

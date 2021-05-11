@@ -41,6 +41,7 @@ anim nav_default_enter_anim
 anim nav_default_exit_anim
 anim nav_default_pop_enter_anim
 anim nav_default_pop_exit_anim
+anim turn_horizontal
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -1079,6 +1080,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1688,6 +1690,7 @@ drawable abc_vector_test
 drawable asian
 drawable avd_hide_password
 drawable avd_show_password
+drawable bill
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1697,6 +1700,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable chinese
+drawable coin
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1750,6 +1754,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pay_cash
 drawable snack
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1758,6 +1763,8 @@ drawable trash
 drawable western
 drawable write_button
 font amatic_sc
+font font_jua
+font jua
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1962,6 +1969,8 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
+id imageView2
 id info
 id invisible
 id inward
@@ -1984,6 +1993,7 @@ id listMode
 id listView
 id list_item
 id list_viewpager
+id loading_img
 id masked
 id material_clock_display
 id material_clock_face
@@ -2055,9 +2065,7 @@ id number
 id off
 id on
 id optionTv
-id optionTv2
-id optionTv3
-id optionTv4
+id orderprice
 id outline
 id outward
 id packed
@@ -2076,7 +2084,6 @@ id pin
 id plus
 id position
 id postLayout
-id price
 id priceTv
 id progress_circular
 id progress_horizontal
@@ -2290,12 +2297,15 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_complete
 layout activity_main
 layout activity_menu
 layout activity_option
 layout activity_order
+layout activity_payment
 layout activity_store_list
 layout custom_dialog
+layout custom_loading_dialog
 layout custom_tab
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

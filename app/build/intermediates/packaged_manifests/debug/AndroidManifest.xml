@@ -23,6 +23,8 @@
         android:testOnly="true"
         android:theme="@style/Theme.PracticeCopy"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.practicecopy.CompleteActivity" />
+        <activity android:name="com.example.practicecopy.PaymentActivity" />
         <activity android:name="com.example.practicecopy.OrderActivity" />
         <activity android:name="com.example.practicecopy.MenuActivity" />
         <activity android:name="com.example.practicecopy.StoreListActivity" />
