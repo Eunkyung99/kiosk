@@ -9,18 +9,19 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="5dp"
-        android:fontFamily="@font/amatic_sc"
+        android:fontFamily="@font/font_jua"
         android:gravity="center"
         android:background="@drawable/edge"
-
+        android:textColor="@drawable/color_text"
         android:textStyle="bold" />
     <TextView
         android:id="@+id/tv_optionprice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:fontFamily="@font/amatic_sc"
+        android:fontFamily="@font/font_jua"
         android:gravity="center"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="@drawable/color_text"/>
 
 </LinearLayout>

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/gang/Downloads/kiosk 2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml",
+            "outputFile": "/Users/gang/Downloads/kiosk2 (1)/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml",
             "map": [
                 {
                     "source": "/Users/gang/.gradle/caches/transforms-2/files-2.1/eb7c68a659fd69fc1a6fe12d0c93f94e/core-1.6.0-alpha03/res/values-gl/values-gl.xml",

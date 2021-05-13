@@ -15,6 +15,7 @@
         android:layout_marginEnd="20dp"
         android:text="LOGIN"
         android:textColor="@color/black"
+        android:fontFamily="@font/font_jua"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

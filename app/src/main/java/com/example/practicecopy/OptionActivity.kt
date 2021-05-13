@@ -11,6 +11,7 @@ import android.widget.AdapterView
 import android.widget.GridView
 import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_option.*
+import kotlinx.android.synthetic.main.optionview_item.view.*
 import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStreamReader
@@ -58,7 +59,7 @@ class OptionActivity : Activity() {
         gridview?.setAdapter(optionviewAdapter)
         gridview?.setOnItemClickListener(AdapterView.OnItemClickListener { parent, view, position, id ->
             var selected = optionItems[position].selected
-            if(!lock) {
+            if (!lock) {
                 if (!selected) { //옵션 선택
                     optionItems[position].selected = true
                     optionID = optionItems[position].optionID //변수
@@ -68,7 +69,9 @@ class OptionActivity : Activity() {
                     basePrice += optionPrice
                     totalPrice += optionPrice
                     tv.text = totalPrice.toString()
-                    view.setBackgroundColor(Color.GRAY)
+                    view.tv_optionname.setTextColor(Color.parseColor("#E91E63"))
+                    view.tv_optionprice.setTextColor(Color.parseColor("#E91E63"))
+                    //view.setBackgroundColor(Color.GRAY)
                     //배열에 옵션ID 배열(옵션 여러 개 가능), 메뉴ID, 가격(totalPrice), 수량 저장하기
                 } else { //옵션 선택 해제
                     optionItems[position].selected = false
@@ -79,7 +82,9 @@ class OptionActivity : Activity() {
                     basePrice -= optionPrice
                     totalPrice -= optionPrice
                     tv.text = totalPrice.toString()
-                    view.setBackgroundColor(Color.TRANSPARENT)
+                    //view.setBackgroundColor(Color.TRANSPARENT)
+                    view.tv_optionname.setTextColor(Color.parseColor("#FF000000"))
+                    view.tv_optionprice.setTextColor(Color.parseColor("#FF000000"))
                     //배열에 옵션ID 배열(옵션 여러 개 가능), 메뉴ID, 가격(totalPrice), 수량 저장하기
                 }
             }

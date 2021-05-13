@@ -1170,6 +1170,7 @@ color notification_icon_bg_color
 color notification_material_background_media_default_color
 color photo_crop_dim_color
 color photo_crop_highlight_color
+color pink
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1700,6 +1701,7 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable chinese
 drawable coin
+drawable color_text
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility

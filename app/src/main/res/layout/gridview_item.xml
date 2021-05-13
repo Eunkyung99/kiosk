@@ -16,9 +16,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:fontFamily="@font/amatic_sc"
         android:gravity="center"
+        android:textSize="15dp"
         android:text="양식"
+        android:fontFamily="@font/font_jua"
         android:textStyle="bold"
         />
 

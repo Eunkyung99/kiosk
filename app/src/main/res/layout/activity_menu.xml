@@ -14,6 +14,7 @@ tools:context=".MenuActivity">
         android:layout_marginBottom="10dp"
         android:text="가게이름"
         android:textSize="36sp"
+        android:fontFamily="@font/font_jua"
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +37,8 @@ tools:context=".MenuActivity">
                 android:id="@+id/textView1"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:text="대표 메뉴" />
+                android:text="대표 메뉴"
+                android:fontFamily="@font/font_jua"/>
             <GridView
                 android:id="@+id/gridview1"
                 android:layout_width="match_parent"
@@ -47,7 +49,8 @@ tools:context=".MenuActivity">
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:text="식사류" />
+                android:text="식사류"
+                android:fontFamily="@font/font_jua"/>
 
                 <GridView
                     android:id="@+id/gridview2"
@@ -59,7 +62,8 @@ tools:context=".MenuActivity">
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:text="사이드" />
+                android:text="사이드"
+                android:fontFamily="@font/font_jua"/>
 
             <GridView
                 android:id="@+id/gridview3"
@@ -71,7 +75,8 @@ tools:context=".MenuActivity">
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:text="음료" />
+                android:text="음료"
+                android:fontFamily="@font/font_jua"/>
 
             <GridView
                 android:id="@+id/gridview4"
@@ -91,6 +96,7 @@ tools:context=".MenuActivity">
         android:layout_marginTop="20dp"
 
         android:text="합계"
+        android:fontFamily="@font/font_jua"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
 
@@ -102,6 +108,7 @@ tools:context=".MenuActivity">
         android:layout_marginTop="20dp"
         android:layout_marginEnd="100dp"
         android:text="0"
+        android:fontFamily="@font/font_jua"
         app:layout_constraintEnd_toStartOf="@+id/pay"
         app:layout_constraintStart_toEndOf="@+id/sum"
         app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
@@ -114,6 +121,7 @@ tools:context=".MenuActivity">
         android:onClick="moveToPay"
         android:layout_marginEnd="50dp"
         android:text="주문 확인하기"
+        android:fontFamily="@font/font_jua"
         android:textColor="#090909"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scrollView2" />

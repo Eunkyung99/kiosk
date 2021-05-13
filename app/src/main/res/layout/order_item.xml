@@ -25,6 +25,7 @@ xmlns:tools="http://schemas.android.com/tools">
     android:textStyle="bold"
     app:layout_constraintStart_toEndOf="@+id/trash"
     app:layout_constraintTop_toTopOf="@+id/trash"
+    android:fontFamily="@font/font_jua"
     tools:text="메뉴"/>
 
     <TextView
@@ -34,6 +35,7 @@ xmlns:tools="http://schemas.android.com/tools">
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/trash"
         app:layout_constraintStart_toStartOf="@+id/menuTv"
+        android:fontFamily="@font/font_jua"
         tools:text="옵션1" />
 
     <TextView
@@ -47,6 +49,7 @@ xmlns:tools="http://schemas.android.com/tools">
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:background="@color/white"
+        android:fontFamily="@font/font_jua"
         tools:text="가격" />
 
     <TextView
@@ -54,7 +57,7 @@ xmlns:tools="http://schemas.android.com/tools">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-
+        android:fontFamily="@font/font_jua"
         android:layout_marginTop="5dp"
         android:textSize="18sp"
         android:textStyle="bold"

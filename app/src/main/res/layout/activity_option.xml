@@ -17,6 +17,7 @@
             android:gravity="center"
             android:background="#000000"
             android:layout_width="match_parent"
+            android:fontFamily="@font/font_jua"
             android:layout_height="40dp" />
     </LinearLayout>
     <!-- //end 타이틀바 -->
@@ -26,6 +27,7 @@
         android:padding="15dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
+        android:background="#fff"
         android:layout_height="200dp">
             <GridView
                 android:id="@+id/gv_option"
@@ -71,6 +73,7 @@
         android:gravity="center"
         android:background="#fff"
         android:layout_width="match_parent"
+        android:fontFamily="@font/font_jua"
         android:layout_height="40dp"
         android:id="@+id/tv_total"/>
     <!-- Notice -->
@@ -90,20 +93,22 @@
             android:id="@+id/cancel"
             android:layout_width="150dp"
             android:layout_height="40dp"
-            android:background="#CDDC39"
+            android:background="#FFC107"
             android:gravity="center"
             android:onClick="mOnClose"
             android:text="취소"
+            android:fontFamily="@font/font_jua"
             android:textColor="#03A9F4"
             android:textSize="15sp" />
         <Button
             android:id="@+id/select"
             android:layout_width="150dp"
             android:layout_height="40dp"
-            android:background="#CDDC39"
+            android:background="#FFC107"
             android:gravity="center"
             android:onClick="mOnSelect"
             android:text="선택"
+            android:fontFamily="@font/font_jua"
             android:textColor="#03A9F4"
             android:textSize="15sp" />
     </LinearLayout>
